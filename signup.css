@@ -1,0 +1,97 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+body {
+    background: blue;
+    background: linear-gradient(to right, blue, #0f0a0a);
+    padding: 190px 0;
+  }
+  
+
+ .sign-up span {
+     background: #ee0979; /* fallback for old browsers */
+     background: -webkit-linear-gradient(
+      to right,
+      #ff6a00,
+      #ee0979
+     ); /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(
+       to right,
+       #ff6a00,
+       #ee0979
+     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+      }
+
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: grey;
+    background: linear-gradient(to right, blue, white);
+    border-radius: 3px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: blue;
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+  }
+  
+  
